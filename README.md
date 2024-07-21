@@ -60,7 +60,7 @@ into a library for use in other projects of the cursus.***
 **Functions from `<math.h>` library**
 ```
         ft_sqrt * - square root function.
-        
+```      
         
 **Non-standard functions**
 ```
@@ -105,12 +105,15 @@ into a library for use in other projects of the cursus.***
       $ cd path/to/libft && make
     ```
 + Using it in your code
-
     + To use the library functions in your code, simply include its header:
-   ```
+
+   ```c
    #include "libft.h"
+
    ```
-    and, when compiling your code, add the required flags:
-   ```
+   and, when compiling your code, add the required flags:
+
+   ```bash
    -lft -L path/to/libft.a -I path/to/libft.h
+   
    ```
